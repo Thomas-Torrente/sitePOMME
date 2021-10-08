@@ -1,0 +1,47 @@
+/* Le Style pour étape 2 */
+
+body {
+  width: 1000px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #dceeaa;
+}
+
+header {
+  background-color: white;
+}
+
+nav {
+  margin-top: 30px;
+  background-color: #8fd337;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+nav a {
+  border-right: 2px solid white;
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+main {
+  padding: 50px;
+  background-color: white;
+}
+
+.subTitle {
+  color: #8fd337;
+  border-bottom: 1px solid;
+}
+
+.link-green {
+  color: #8fd337;
+  text-decoration: none;
+}

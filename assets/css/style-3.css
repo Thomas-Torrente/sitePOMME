@@ -1,0 +1,60 @@
+/* Le Style pour étape 3 */
+
+body {
+  margin: 10px 0;
+  /* margin-top: 10px; */
+  background-color: #dceeaa;
+  font: 0.8em "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#container {
+  margin: 0 auto;
+  width: 770px;
+  border: 2px solid #ab4;
+}
+/*  */
+
+.padding-left-50 {
+  padding: 10px;
+  padding-left: 50px;
+}
+
+header {
+  background-color: white;
+  line-height: 250px;
+}
+
+nav {
+  margin-top: 30px;
+  background-color: #8fd337;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav a {
+  border-right: 2px solid white;
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main {
+  background-color: white;
+}
+
+.subTitle {
+  color: #8fd337;
+  border-bottom: 1px solid;
+}
+
+.link-green {
+  color: #8fd337;
+  text-decoration: none;
+}
