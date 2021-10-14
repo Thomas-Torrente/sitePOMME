@@ -1,4 +1,8 @@
-/* Le Style pour étape 3 */
+/* Le Style pour étape 4 */
+
+/* ------------------------ */
+/* Global */
+/* ------------------------ */
 
 body {
   /* Gestion du body */
@@ -16,20 +20,42 @@ body {
   width: 770px;
   border: 2px solid #ab4;
 }
-/*  */
+
+/* ------------------------ */
+/* HEADER */
+/* ------------------------ */
 
 header {
   /* gestion du Header avec image */
   background: url("/assets/img/apple.jpg") no-repeat left top;
-  line-height: 258px;
+  height: 258px;
 }
+
+header a {
+  display: block;
+  width: 400px;
+  height: 70px;
+  background: url("/assets/img/title.gif") no-repeat;
+  position: relative;
+  left: 350px;
+  top: 15px;
+  text-indent: -5000000px; /* Indentation négative afin de ne plus être visible pour les users mais pouvant être lu par le moteur de recherche */
+}
+
+h1 {
+  margin: 0;
+}
+
+/* ------------------------ */
+/* Navigation */
+/* ------------------------ */
 
 nav {
   /* gestion de la navigation général */
 
   margin-top: 30px;
-
-  background: url("/assets/img/bg_menu.gif") -25px top;
+  height: 35px;
+  background: url("/assets/img/bg_menu.gif") 0 -25px;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -39,7 +65,7 @@ nav {
 
 nav ul {
   /* gestion des élements de la nav */
-
+  margin: 0;
   list-style: none;
   display: flex;
 }
@@ -49,6 +75,10 @@ nav li {
   font-weight: bold;
   font-size: 1.2em;
   letter-spacing: 2px;
+}
+
+nav li a:hover {
+  background: url("/assets/img/bg_menu.gif") repeat-x 0 0;
 }
 
 nav a {
@@ -76,11 +106,14 @@ main {
   text-decoration: none;
 }
 
+/* ------------------------ */
 /* contenue */
+/* ------------------------ */
 
 #contenu {
   /* Gestion de du contenue dans la section  */
-
+  background: url("/assets/img/bg_page.gif") no-repeat;
+  margin: 15px 15px;
   padding: 0 30px 0 100px;
 }
 
@@ -121,8 +154,9 @@ main {
 
   text-decoration: underline;
 }
-
+/* ------------------------ */
 /* FOOTER */
+/* ------------------------ */
 
 footer p {
   margin: 0;
